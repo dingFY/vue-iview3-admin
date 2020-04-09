@@ -1,0 +1,26 @@
+#app {
+    height: 100%;
+    background: #f0f4fb;
+}
+
+// pageTable下的输入框
+.table-param {
+    display: inline-block;
+    margin: 5px 20px 5px 0;
+}
+
+.table-param-label {
+    margin-right: 15px;
+    display: inline-block;
+    min-width: 72px;
+    text-align: right;
+}
+
+.table-param-input {
+    width: 200px;
+    display: inline-block;
+}
+
+.ivu-btn {
+    padding: 5px 15px 6px;
+}
