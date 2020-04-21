@@ -19,3 +19,8 @@ export function login(params) {
 export function logout(params) {
     return get("/oauth/logout", params);
 }
+
+//在押人员列表
+export function prisonerList(params) {
+    return get("/prisoner/prisonerList", params);
+}

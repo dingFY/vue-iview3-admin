@@ -64,7 +64,7 @@ export default {
     }
   },
   created() {
-    console.log(this.menuList)
+    // console.log(this.menuList)
     // 数据我先写静态的，可在初始化的时候通过请求，将数据指向menuList。
     // ajax成功回调后 this.menuList = response.data;
     // 别忘记更新菜单
