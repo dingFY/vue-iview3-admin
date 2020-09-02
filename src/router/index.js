@@ -9,7 +9,8 @@ Vue.use(VueRouter)
 let pages = [
     'home',
     'prisonerManager',
-    'user',
+    'playVolice',
+    'textScroll',
     'test'
 ].map(name => ({
     path: name,
