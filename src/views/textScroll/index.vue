@@ -19,7 +19,8 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 200px;
+  // 设置容器最大宽度为200
+  width: 200px; 
   font-size: 40px;
   border: 1px solid lightblue;
   margin: 40px;
