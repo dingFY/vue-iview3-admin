@@ -37,7 +37,9 @@ export default {
         {
           title: "操作",
           render: (h, { row }) => {
-            return [<Button type="primary">编辑</Button>];
+            return [
+              <Button type="primary">编辑</Button>
+            ]
           }
         }
       ];

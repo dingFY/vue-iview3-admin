@@ -11,7 +11,8 @@ let pages = [
     'prisonerManager',
     'playVolice',
     'textScroll',
-    'test'
+    'test',
+    'exchange'
 ].map(name => ({
     path: name,
     name: name,
