@@ -13,7 +13,8 @@ let pages = [
     'textScroll',
     'test',
     'exchange',
-    'uploadImg'
+    'uploadImg',
+    'DualDatePicker',
 ].map(name => ({
     path: name,
     name: name,
