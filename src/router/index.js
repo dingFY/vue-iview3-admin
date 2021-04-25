@@ -15,6 +15,7 @@ let pages = [
     'exchange',
     'uploadImg',
     'DualDatePicker',
+    'iconButton',
 ].map(name => ({
     path: name,
     name: name,

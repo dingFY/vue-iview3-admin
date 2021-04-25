@@ -16,7 +16,10 @@ export default {
   components: { DualDatePicker },
   data() {
     return {
-      params: {},
+      params: {
+        startTime: '',
+        endTime: ''
+      },
     };
   },
   computed: {
