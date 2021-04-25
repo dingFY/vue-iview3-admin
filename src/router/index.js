@@ -12,7 +12,8 @@ let pages = [
     'playVolice',
     'textScroll',
     'test',
-    'exchange'
+    'exchange',
+    'uploadImg'
 ].map(name => ({
     path: name,
     name: name,
