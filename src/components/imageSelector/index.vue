@@ -6,6 +6,7 @@
 </template>
 <script>
 import getFile from "@/utils/getFile";
+import fileToBase64 from "@/utils/fileToBase64";
 export default {
   props: {
     value: {
@@ -52,25 +53,14 @@ export default {
           exts: ["jpg", "png"],
           maxSize: 10,
         });
-        console.log(image);
 
         if (image) {
           this.imgFile = image;
-          this.src = await this.fileToBase64(image);
+          this.src = await fileToBase64(image);
         }
       } catch (e) {
         this.$Message.error(e);
       }
-    },
-    fileToBase64(file) {
-      return new Promise((resolve, reject) => {
-        if (!file) reject(new Error("no file"));
-        let reader = new FileReader();
-        reader.addEventListener("load", () => {
-          resolve(reader.result);
-        });
-        reader.readAsDataURL(file);
-      });
     },
   },
 };

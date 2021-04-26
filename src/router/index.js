@@ -16,6 +16,7 @@ let pages = [
     'uploadImg',
     'DualDatePicker',
     'iconButton',
+    'base64ToFile'
 ].map(name => ({
     path: name,
     name: name,
